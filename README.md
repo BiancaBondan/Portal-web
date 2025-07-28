@@ -2,6 +2,7 @@
  -This portal provides authenticated access (via LDAP) for network analysts and support teams to manage, search, and analyze backup data from over 2,000 devices.
 
 ## Project Structure
+.
 📁 backup/  
 ├── app.wsgi
 ├── app.py
@@ -20,7 +21,7 @@
 │   ├── buscar_arquivo.js        
 │   ├── adicionar_dispositivo.js    
 │   ├── analise_backup.js 
-│   ├── _app.js          
+│   ├── scritp.js          
 │   └── backup_now.js
 ├──📁 pages/# Páginas HTML do frontend
 │   ├── buscar_dados.html
@@ -36,7 +37,7 @@
 ├──📁 bianca
 │   ├── dicionario_(client name).json
 │   └── analisa_backup.json
-└──📁 
+└──📁 log 
 │   ├── logs_adicionar_dispositivo.txt
 │   ├── logs_dicionario.txt
 │   ├── logs_timeout.txt
