@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Adicionar Dispositivo</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Adicionar Novo Dispositivo</h2>
+
+    <div class="form-card">
+      <form id="deviceForm">
+        <label>IP:
+          <input type="text" id="ip" name="ip" required>
+        </label>
+
+        <label>Estado:
+          <input type="text" id="estado" name="estado" required>
+        </label>
+
+        <label>Cidade:
+          <input type="text" id="cidade" name="cidade" placeholder="Caso não saiba, digite 'Nao Identificado'">
+        </label>
+
+        <label>Tipo:
+          <input type="text" id="tipo" name="tipo" placeholder="Escritório, Data Center, SEDE, Subestação...">
+        </label>
+
+        <button type="submit" class="submit-button">Salvar Dispositivo</button>
+      </form>
+
+      <div id="formMessage" class="message"></div>
+    </div>
+  </div>
+  <script src="../assets/js/adicionar_dispositivo.js?v=20250703"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Análise de Backups</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<h1>## Em desenvolvimento ##</h1>
+<h2>Análise de arquivos backup</h2>
+
+<div class="form-group">
+  <label for="ipInput" style="font-weight: bold;">IP:</label>
+  <input type="text" id="ipInput" class="input" placeholder="Ex: 10.10.10.10">
+  <button id="botaoBuscar" class="action-button">Buscar</button>
+</div>
+
+<div id="resultado" class="info-card hidden"></div>
+<script type="module">
+  import { analysisBackupInit } from "../assets/js/analise_backup.js";
+  analysisBackupInit();
+</script>
+
+</body>
+</html>
