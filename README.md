@@ -1,5 +1,8 @@
 #  Web Portal for Network Devices
  -This portal provides authenticated access (via LDAP) for network analysts and support teams to manage, search, and analyze backup data from over 2,000 devices.
+ - Runs on a Linux VM
+ - The backup_cron.py, dictionary.py, and analise_backup.py scripts will be private.
+ - I'm still developing to add more functions and to improve the frontend as well.
 
 ## Project Structure
 ```
